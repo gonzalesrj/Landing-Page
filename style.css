@@ -1,0 +1,21 @@
+:root {
+  --dark-bg-color: #1F2937;
+  --hero-main-size: 48px;
+  --hero-main-weight: bolder;
+  --hero-main-color: #F9FAF8;
+  --hero-sec-size: 18px;
+  --hero-sec-color: #E5E7EB;
+  --header-logo-size: 24px;
+  --header-logo-color: #F9FAF8;
+
+  --btn-color: #3882F6;
+  --info-header-size: 36px;
+  --info-header-weight: bolder;
+  --info-header-color: #1F2937;
+
+  --quote-bg-color: #E5E7EB;
+  --quote-size: 36px;
+  --quote-weight: light;
+  --quote-style: italic;
+  --quote-color: #1F2937;
+}

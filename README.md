@@ -1,1 +1,1 @@
-# landing-page
+# This is a landing page project on The Odin Project Foundations Course
