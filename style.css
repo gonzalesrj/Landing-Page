@@ -2,7 +2,7 @@
 
 :root {
   --header-bg-color: #1F2937;
-  --header-main-size: 48px;
+  --header-main-size: clamp(2em, 4vw, 3.5em);
   --header-font-weight: bolder;
   --header-main-color: #F9FAF8;
 
@@ -66,9 +66,10 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 5em 15em;
+  gap: 1rem;
 }
 
-.site-description > h1 {
+h1 {
   font-size: var(--header-main-size);
   font-weight: var(--header-font-weight);
   color: var(--header-main-color);
@@ -94,6 +95,21 @@ button {
 
 main > img {
   background-color: var(--quote-bg-color);
-  width: 30vw;
-  height: 30vh;
+  width: max(40vw, 100%);
 }
+
+/* @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+} */
